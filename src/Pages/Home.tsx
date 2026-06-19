@@ -4,6 +4,7 @@ import Footer from "../Components/Footer";
 import Hero from "../Components/HeroSection";
 import HowItWorks from "../Components/Howitwork";
 import Navbar from "../Components/Navbar";
+import PricingSection from "../Components/Price";
 import StatsBar from "../Components/Statsbar";
 import Testimonials from "../Components/Testimonials";
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <HowItWorks/>
      <AppSection/>
      <Testimonials/>
+     <PricingSection/>
      <Footer/>
     </>
   );

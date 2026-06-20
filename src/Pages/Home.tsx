@@ -1,9 +1,10 @@
 import AppSection from "../Components/Appsection";
-import Features from "../Components/Features";
 import Footer from "../Components/Footer";
 import Hero from "../Components/HeroSection";
 import HowItWorks from "../Components/Howitwork";
 import Navbar from "../Components/Navbar";
+import FeaturesSection from "../Components/FeatureSection";
+
 import PricingSection from "../Components/Price";
 import StatsBar from "../Components/Statsbar";
 import Testimonials from "../Components/Testimonials";
@@ -13,7 +14,7 @@ const Home = () => {
       <Navbar />
       <Hero/>
       <StatsBar/>
-      <Features/>
+      <FeaturesSection/>
       <HowItWorks/>
      <AppSection/>
      <Testimonials/>
